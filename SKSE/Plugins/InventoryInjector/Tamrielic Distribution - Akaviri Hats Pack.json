@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/InventoryInjector/main/docs/InventoryInjector.schema.json",
+  "rules": [
+    {
+      "match": {
+        "formType": "Armor",
+        "formId": {
+          "anyOf": [
+            "Kad_AkaviriHats.esp|803",
+            "Kad_AkaviriHats.esp|806",
+			"Kad_AkaviriHats.esp|81A",
+			"Kad_AkaviriHats.esp|81C",
+			"Kad_AkaviriHats.esp|81D",
+            "Kad_AkaviriHats.esp|81E"
+          ]
+        }
+      },
+      "assign": {
+        "subType": "Head"
+      }
+    }
+  ]
+}
