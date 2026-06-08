@@ -1,0 +1,122 @@
+{
+  "rules" : [
+    {
+      "friendlyName" : "Add Tamrielic Rare Curios to Khajiit Caravans",
+      "conditions" : {
+        "containers" : [
+          "0x7434B|Skyrim.esm",
+          "0x7434D|Skyrim.esm",
+          "0x7434E|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x804|Tamrielic Distribution - Rare Curios.esp"
+         ],
+         "count" : 10
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Tamrielic Rare Curios to the East Empire Company",
+      "conditions" : {
+        "containers" : [
+          "0xD6AA4|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x804|Tamrielic Distribution - Rare Curios.esp"
+         ],
+         "count" : 4
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Sload Soap and Vvardenfell Rare Curios to the Tel Mithryn Apothecary",
+      "conditions" : {
+        "containers" : [
+          "0x177BE|Dragonborn.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x802|Tamrielic Distribution - Rare Curios.esp",
+            "0x885|ccbgssse037-curios.esl"
+         ],
+         "count" : 6
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Oblivion Rare Curios to the Demora Merchant",
+      "conditions" : {
+        "containers" : [
+          "0x1EEC0|Dragonborn.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x801|Tamrielic Distribution - Rare Curios.esp"
+         ],
+         "count" : 20
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Vvardenfell Rare Curios to Milore Ienth's Apothecary",
+      "conditions" : {
+        "containers" : [
+          "0x2501C|Dragonborn.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x802|Tamrielic Distribution - Rare Curios.esp"
+         ],
+         "count" : 6
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Paradise and Oblivion Rare Curios to Falas Selvayn's Trading Post",
+      "conditions" : {
+        "containers" : [
+          "0x31DB4|Dragonborn.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x800|Tamrielic Distribution - Rare Curios.esp",
+            "0x801|Tamrielic Distribution - Rare Curios.esp"
+         ],
+         "count" : 6
+       }
+      ]
+    }
+  ]
+}
