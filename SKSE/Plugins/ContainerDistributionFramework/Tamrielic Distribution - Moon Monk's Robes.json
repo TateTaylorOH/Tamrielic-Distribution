@@ -1,0 +1,44 @@
+{
+  "rules" : [
+    {
+      "friendlyName" : "Add Moon Monk Robes to Khajiit Caravans",
+      "conditions" : {
+        "containers" : [
+          "0x7434B|Skyrim.esm",
+          "0x7434D|Skyrim.esm",
+          "0x7434E|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x802|Tamrielic Distribution - Moon Monk's Robes.esp"
+         ],
+         "count" : 10
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Moon Monk Robes to the East Empire Company",
+      "conditions" : {
+        "containers" : [
+          "0xD6AA4|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x802|Tamrielic Distribution - Moon Monk's Robes.esp"
+         ],
+         "count" : 5
+       }
+      ]
+    }
+  ]
+}

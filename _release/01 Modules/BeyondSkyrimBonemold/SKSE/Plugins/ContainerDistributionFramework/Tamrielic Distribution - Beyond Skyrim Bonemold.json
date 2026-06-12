@@ -1,0 +1,66 @@
+{
+  "rules" : [
+    {
+      "friendlyName" : "Add Bonemold Weapons to Khajiit Caravans",
+      "conditions" : {
+        "containers" : [
+          "0x7434B|Skyrim.esm",
+          "0x7434D|Skyrim.esm",
+          "0x7434E|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x11815|Tamrielic Distribution - Beyond Skyrim Bonemold.esp",
+            "0x11867|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+         ],
+         "count" : 1
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Bonemold Weapons to the East Empire Company",
+      "conditions" : {
+        "containers" : [
+          "0xD6AA4|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x11815|Tamrielic Distribution - Beyond Skyrim Bonemold.esp",
+            "0x11867|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+         ],
+         "count" : 1
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Bonemold Weapons to Glover Mallory",
+      "conditions" : {
+        "containers" : [
+          "0x2501D|Dragonborn.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x11815|Tamrielic Distribution - Beyond Skyrim Bonemold.esp",
+            "0x11867|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+         ],
+         "count" : 1
+       }
+      ]
+    }
+  ]
+}

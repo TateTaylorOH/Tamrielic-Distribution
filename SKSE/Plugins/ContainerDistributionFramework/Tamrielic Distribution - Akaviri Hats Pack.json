@@ -1,0 +1,44 @@
+{
+  "rules" : [
+    {
+      "friendlyName" : "Add Akaviri Hats to Khajiit Caravans",
+      "conditions" : {
+        "containers" : [
+          "0x7434B|Skyrim.esm",
+          "0x7434D|Skyrim.esm",
+          "0x7434E|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x800|Tamrielic Distribution - Akaviri Hats Pack.esp"
+         ],
+         "count" : 6
+       }
+      ]
+    },
+    {
+      "friendlyName" : "Add Akaviri Hats to the East Empire Company",
+      "conditions" : {
+        "containers" : [
+          "0xD6AA4|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x800|Tamrielic Distribution - Akaviri Hats Pack.esp"
+         ],
+         "count" : 3
+       }
+      ]
+    }
+  ]
+}
