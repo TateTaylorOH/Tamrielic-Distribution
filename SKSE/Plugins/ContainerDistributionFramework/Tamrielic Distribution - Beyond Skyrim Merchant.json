@@ -22,6 +22,27 @@
       ]
     },
     {
+      "friendlyName" : "Add Elsweyr Wares to Khajiit Caravans",
+      "conditions" : {
+        "containers" : [
+          "0x7434B|Skyrim.esm",
+          "0x7434D|Skyrim.esm",
+          "0x7434E|Skyrim.esm"
+        ],
+        "bypassUnsafeContainers": true,
+        "allowVendors" : true,
+        "onlyVendors" : true
+      },
+      "changes":[
+        {
+          "add" : [
+            "0x815|Tamrielic Distribution - Beyond Skyrim Merchant.esp"
+         ],
+         "count" : 5
+       }
+      ]
+    },
+    {
       "friendlyName" : "Add Wares to the East Empire Company",
       "conditions" : {
         "containers" : [
@@ -64,7 +85,7 @@
       "friendlyName" : "Add Morrowind Wares Foodstuff to the Retching Netch",
       "conditions" : {
         "containers" : [
-          "0x2501E|Skyrim.esm"
+          "0x2501E|Dragonborn.esm"
         ],
         "bypassUnsafeContainers": true,
         "allowVendors" : true,
@@ -73,7 +94,7 @@
       "changes":[
         {
           "add" : [
-            "0x80A|Tamrielic Distribution - Beyond Skyrim Merchant.esp"
+            "0x814|Tamrielic Distribution - Beyond Skyrim Merchant.esp"
          ],
          "count" : 5
        }

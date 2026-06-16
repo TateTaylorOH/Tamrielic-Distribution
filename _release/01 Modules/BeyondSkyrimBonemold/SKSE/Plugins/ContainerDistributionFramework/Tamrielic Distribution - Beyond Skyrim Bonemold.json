@@ -15,10 +15,9 @@
       "changes":[
         {
           "add" : [
-            "0x11815|Tamrielic Distribution - Beyond Skyrim Bonemold.esp",
-            "0x11867|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+            "0xA16|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
          ],
-         "count" : 1
+         "count" : 5
        }
       ]
     },
@@ -35,10 +34,9 @@
       "changes":[
         {
           "add" : [
-            "0x11815|Tamrielic Distribution - Beyond Skyrim Bonemold.esp",
-            "0x11867|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+            "0xA16|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
          ],
-         "count" : 1
+         "count" : 5
        }
       ]
     },
@@ -55,8 +53,7 @@
       "changes":[
         {
           "add" : [
-            "0x11815|Tamrielic Distribution - Beyond Skyrim Bonemold.esp",
-            "0x11867|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+            "0x867|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
          ],
          "count" : 1
        }

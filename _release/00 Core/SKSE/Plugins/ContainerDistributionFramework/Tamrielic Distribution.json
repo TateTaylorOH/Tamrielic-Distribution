@@ -1,7 +1,7 @@
 {
   "rules" : [
     {
-      "friendlyName" : "Add Bonemold Weapons to Khajiit Caravans",
+      "friendlyName" : "Add Dragonborn Items to Khajiit Caravans",
       "conditions" : {
         "containers" : [
           "0x7434B|Skyrim.esm",
@@ -15,14 +15,14 @@
       "changes":[
         {
           "add" : [
-            "0xA16|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+            "0x81A|Tamrielic Distribution.esl"
          ],
          "count" : 5
        }
       ]
     },
     {
-      "friendlyName" : "Add Bonemold Weapons to the East Empire Company",
+      "friendlyName" : "Add Dragonborn Items to the East Empire Company",
       "conditions" : {
         "containers" : [
           "0xD6AA4|Skyrim.esm"
@@ -34,17 +34,17 @@
       "changes":[
         {
           "add" : [
-            "0xA16|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+            "0x81A|Tamrielic Distribution.esl"
          ],
          "count" : 5
        }
       ]
     },
     {
-      "friendlyName" : "Add Bonemold Weapons to Glover Mallory",
+      "friendlyName" : "Add Dragonborn Items to Brand-Shei",
       "conditions" : {
         "containers" : [
-          "0x2501D|Dragonborn.esm"
+          "0xA31B5|Skyrim.esm"
         ],
         "bypassUnsafeContainers": true,
         "allowVendors" : true,
@@ -53,9 +53,9 @@
       "changes":[
         {
           "add" : [
-            "0x867|Tamrielic Distribution - Beyond Skyrim Bonemold.esp"
+            "0x81A|Tamrielic Distribution.esl"
          ],
-         "count" : 1
+         "count" : 5
        }
       ]
     }
