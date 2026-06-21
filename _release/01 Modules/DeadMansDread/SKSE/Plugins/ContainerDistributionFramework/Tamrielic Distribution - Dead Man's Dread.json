@@ -1,7 +1,7 @@
 {
   "rules" : [
     {
-      "friendlyName" : "Add Moon Monk Robes to Khajiit Caravans",
+      "friendlyName" : "Add Dead Man's Dread items to Khajiit Caravans",
       "conditions" : {
         "containers" : [
           "0x7434B|Skyrim.esm",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "friendlyName" : "Add Moon Monk Robes to the East Empire Company",
+      "friendlyName" : "Add Dead Man's Dread items to the East Empire Company",
       "conditions" : {
         "containers" : [
           "0xD6AA4|Skyrim.esm"
